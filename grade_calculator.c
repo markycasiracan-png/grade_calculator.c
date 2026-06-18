@@ -27,8 +27,8 @@ float calculateFinalGrade(float quizScore, float examScore){
     return (quizScore * 0.4) + (examScore * 0.6);
 }
 
-char getLetterGrade(float finalGrade)
-{
+char getLetterGrade(float finalGrade){
+    
     if (finalGrade >= 90)
         return 'A'; else if (finalGrade >= 80)
         return 'B'; else if (finalGrade >= 70)
@@ -37,8 +37,8 @@ char getLetterGrade(float finalGrade)
         return 'F';
 }
 
-void displayReport(float quizScore, float examScore, float finalGrade, char letterGrade)
-{
+void displayReport(float quizScore, float examScore, float finalGrade, char letterGrade){
+    
     printf("=================================\n");
     printf("           GRADE REPORT           \n");
     printf("=================================\n");
